@@ -13,7 +13,7 @@ export const Header = () => {
             <Navbar.Text className="d-flex">
                 <NavLink className="text-decoration-none mx-4 text-uppercase nav-link" to="/">Home</NavLink>
                 <NavLink className="text-decoration-none mx-4 text-uppercase nav-link" to="/">Services</NavLink>
-                <NavLink className="text-decoration-none mx-4 text-uppercase nav-link" to="/">About Us</NavLink>
+                <NavLink className="text-decoration-none mx-4 text-uppercase nav-link" to="/about">About Us</NavLink>
                 <NavLink className="text-decoration-none mx-4 text-uppercase nav-link" to="/">Sing Up</NavLink>
             </Navbar.Text>
           </Navbar.Collapse>
