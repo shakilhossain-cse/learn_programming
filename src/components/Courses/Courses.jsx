@@ -1,16 +1,12 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
-import { useState,useEffect } from 'react'
+
 import { Course } from '../Course/Course';
+import { useServices } from '../../hook/useServices';
 
 
 export const Courses = () => {
-  const [courses, setCourses] = useState([]);
-  useEffect(()=>{
-    fetch('./course.json')
-    .then(res => res.json())
-    .then(data => setCourses(data))
-  },[])
+  const [courses] = useServices()
     return (
         <div>
             <Container>

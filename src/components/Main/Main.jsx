@@ -5,7 +5,7 @@ import { Teachers } from '../Teachers/Teachers'
 
 export const Main = () => {
     return (
-        <div className="bg-light">
+        <div className="bg-light pb-5">
             <Banner/>
             <Courses/>
             <Teachers/>
