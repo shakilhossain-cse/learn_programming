@@ -13,7 +13,7 @@ export const Course = (props) => {
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>Price : ${price}</Card.Text>
                     <Card.Text>Rating : {rating}</Card.Text>
-                    <Button className="btn btn-warning">Enroll Now</Button>
+                    <Button className="btn btn-warning">Join Now</Button>
                 </Card.ImgOverlay>
             </Card>
         </Col>
