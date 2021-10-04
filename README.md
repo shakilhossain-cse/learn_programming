@@ -1,6 +1,6 @@
 # welcome to our Next Programmer Platfrom
 
-Live LInk [nextprogrammer](https:nextprogrammernp.netlify.com).
+Live LInk [nextprogrammer](https://nextprogrammernp.netlify.app/).
 
 ## Description 
 
